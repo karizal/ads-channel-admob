@@ -11,7 +11,7 @@ allprojects {
 
 ```groovy
 dependencies {
-    implementation 'com.github.karizal:ads_channel_admob:1.1.0'
+    implementation 'com.github.karizal:ads_channel_admob:1.1.1'
 }
 ```
 

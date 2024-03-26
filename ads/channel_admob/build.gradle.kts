@@ -34,7 +34,7 @@ android {
 }
 
 dependencies {
-    api("com.github.karizal:ads-base:1.0.0-r2")
+    api("com.github.karizal:ads-base:1.0.1")
 
     implementation("com.google.android.gms:play-services-ads:23.0.0")
     implementation("com.google.gms:google-services:4.3.15")
@@ -52,7 +52,7 @@ afterEvaluate {
 
                 groupId = "com.github.karizal"
                 artifactId = "ads_channel_admob"
-                version = "1.1.0"
+                version = "1.1.1"
             }
         }
     }

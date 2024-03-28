@@ -52,7 +52,7 @@ afterEvaluate {
 
                 groupId = "com.github.karizal"
                 artifactId = "ads_channel_admob"
-                version = "1.1.1"
+                version = "1.1.2"
             }
         }
     }

@@ -35,7 +35,7 @@ class AdmobInterstitial(private val data: AdmobData) : InterstitialContract {
         val adUnitId = if (isDebug) {
             AdmobConst.ADMOB_INTERSTITIAL_UNIT_ID_DEBUG
         } else {
-            data.banner_id ?: return onInitializeError.invoke(name)
+            data.interstitial_id ?: return onInitializeError.invoke(name)
         }
 
         InterstitialAd.load(activity, adUnitId, adRequest, object : InterstitialAdLoadCallback() {
